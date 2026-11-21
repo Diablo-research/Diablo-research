@@ -22,7 +22,3 @@ Investigating detection gaps, validating telemetry, and contributing improvement
 
 - [SigmaHQ / sigma](https://github.com/SigmaHQ/sigma/pulls?q=is%3Apr+author%3ADiablo-research) — Rule development and improvements for detection content.
 - [Splunk / security_content](https://github.com/splunk/security_content/pulls?q=is%3Apr+author%3ADiablo-research) — Detection validation and content enhancements.
-
-## Research approach
-
-Reproduce → Collect evidence → Validate → Document
