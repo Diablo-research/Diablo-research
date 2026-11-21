@@ -7,7 +7,9 @@
 Investigating detection gaps, validating telemetry, and contributing improvements to open-source security tools.
 
 <p>
-  <img src="./assets/tools.svg" alt="Splunk, Sigma, Sysmon, Python, and PowerShell" width="560">
+  <img src="./assets/sentinel-tools.svg"
+     alt="Splunk, Sigma, Sysmon, Microsoft Sentinel"
+     width="560">
 </p>
 
 ## Research focus
