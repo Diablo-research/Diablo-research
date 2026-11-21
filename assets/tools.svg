@@ -1,21 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="36" viewBox="0 0 560 36" role="img" aria-label="Splunk, Sigma, Sysmon, Python, PowerShell">
-  <title>Tools: Splunk, Sigma, Sysmon, Python, PowerShell</title>
-  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#242c36"/><stop offset="1" stop-color="#161b22"/></linearGradient></defs>
-  <g fill="url(#bg)" stroke="#414b58">
-    <rect x="1" y="1" width="95" height="33" rx="6"/>
-    <rect x="104" y="1" width="96" height="33" rx="6"/>
-    <rect x="208" y="1" width="103" height="33" rx="6"/>
-    <rect x="319" y="1" width="100" height="33" rx="6"/>
-    <rect x="427" y="1" width="132" height="33" rx="6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="496" height="36" viewBox="0 0 496 36" role="img" aria-label="Splunk, Sigma, Sysmon, Microsoft Sentinel">
+  <title>Splunk · Sigma · Sysmon · Microsoft Sentinel</title>
+  <defs>
+    <linearGradient id="red" x2="0" y2="1"><stop stop-color="#472728"/><stop offset="1" stop-color="#24191c"/></linearGradient>
+    <linearGradient id="neutral" x2="0" y2="1"><stop stop-color="#343b43"/><stop offset="1" stop-color="#1b2027"/></linearGradient>
+    <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#243949"/><stop offset="1" stop-color="#18242f"/></linearGradient>
+    <linearGradient id="sentinel" x2="1" y2="1"><stop stop-color="#88caff"/><stop offset="1" stop-color="#7270e7"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="95" height="33" rx="6" fill="url(#red)" stroke="#785052"/>
+  <rect x="104" y="1" width="96" height="33" rx="6" fill="url(#neutral)" stroke="#4d5864"/>
+  <rect x="208" y="1" width="106" height="33" rx="6" fill="url(#blue)" stroke="#475969"/>
+  <rect x="322" y="1" width="173" height="33" rx="6" fill="url(#blue)" stroke="#46586d"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 11l11 7-11 7" stroke="#ff6b65" stroke-width="3"/>
+    <path d="M118 10h12m-12 0 7 8-7 8h12" stroke="#e5e9ef" stroke-width="2.2"/>
   </g>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#e6edf3">
-    <text x="35" y="23">Splunk</text><text x="140" y="23">Sigma</text><text x="242" y="23">Sysmon</text><text x="352" y="23">Python</text><text x="464" y="23">PowerShell</text>
+  <g fill="#52baff">
+    <path d="M220 11l7-1v8h-7zM229 10l8-1v9h-8zM220 20h7v8l-7-1zM229 20h8v9l-8-1z"/>
   </g>
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="20">
-    <text x="13" y="24" fill="#c78bfa">&gt;</text>
-    <text x="116" y="24" fill="#64be99">Σ</text>
-    <text x="220" y="24" fill="#76b894">⊞</text>
-    <text x="330" y="23" fill="#69aaf0" font-size="14">Py</text>
-    <text x="438" y="23" fill="#58a6ff" font-size="14">&gt;_</text>
+  <path d="M334 10l8-3 8 3v8c0 5-4 9-8 11-4-2-8-6-8-11z" fill="url(#sentinel)"/>
+  <path d="M338 18l3 3 6-7" fill="none" stroke="#10233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#eef1f6" font-family="Arial, Helvetica, sans-serif" font-size="13">
+    <text x="35" y="23">Splunk</text>
+    <text x="140" y="23">Sigma</text>
+    <text x="244" y="23">Sysmon</text>
+    <text x="358" y="23" font-size="12.5">Microsoft Sentinel</text>
   </g>
 </svg>
